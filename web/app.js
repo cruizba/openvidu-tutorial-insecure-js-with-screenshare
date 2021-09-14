@@ -144,7 +144,6 @@ function leaveSession() {
 	// Removing all HTML elements with user's nicknames.
 	// HTML videos are automatically removed when leaving a Session
 	removeAllUserData();
-	clearScreenShare();
 
 	// Back to 'Join session' page
 	document.getElementById('join').style.display = 'block';
